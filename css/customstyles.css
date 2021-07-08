@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+}
+
+div #battleZone {
+    height: 700px;
+    width: 700 px;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    display: inline-block;
+    background-image: url('images/Levels/pokemon-party.jpeg');
+}

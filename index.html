@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+    
+    <link rel="stylesheet" href="css/customstyles.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
@@ -14,7 +15,7 @@
     <header class="bg-dark">
         <div class="row">
             <div class="col">
-                <img width="400" src="images/PokemonBanner.jpeg">
+                <img width="400" src="css/images/PokemonBanner.jpeg">
             </div>
             <div class="col">
                 <h1 class="text-primary">BATTLE!</h1>
@@ -23,20 +24,55 @@
         </header>
     <div class="container-fluid">
         <div class="row pt-3">
-            <div class="col">
+            <div class="col text-center">
                 <h1>Choose your level:</h1>
                 <button class="btn-primary" id="caveBtn">Cave</button>
-                <button class="btn-danger">Volcano</button>
-                <button class="btn-success">Forest</button>
-                <button class="btn-warning">Canyon</button>
-                <button class="btn-info">City</button>
-                <button class="btn-dark">Arena</button>
+                <button class="btn-danger" id="volcanoBtn">Volcano</button>
+                <button class="btn-success" id="forestBtn">Forest</button>
+                <button class="btn-warning" id="canyonBtn">Canyon</button>
+                <button class="btn-info" id="cityBtn">City</button>
+                <button class="btn-dark" id="arenaBtn">Arena</button>
+
+            </div>
+            <div class="col text-center">
+                <h1>Choose your Pokemon:</h1>
+                <button class="btn-primary" id="zamazentaBtn">Zamazenta</button>
+                <button class="btn-danger" id="charizardBtn">Charizard</button>
+                <button class="btn-success" id="carnivineBtn">Carnivine</button>
+                <button class="btn-warning" id="pikachuBtn">Pikachu</button>
+                <button class="btn-info" id="squirtleBtn">Squirtle</button>
+                <button class="btn-dark" id="mewtwoBtn">MewTwo</button>
+
+            </div>
+
+            <div class="col text-center">
+                <h1>Choose your Opponent:</h1>
+                <button class="btn-primary" id="zamazentaOppBtn">Zamazenta</button>
+                <button class="btn-danger" id="charizardOppBtn">Charizard</button>
+                <button class="btn-success" id="carnivineOppBtn">Carnivine</button>
+                <button class="btn-warning" id="pikachuOppBtn">Pikachu</button>
+                <button class="btn-info" id="squirtleOppBtn">Squirtle</button>
+                <button class="btn-dark" id="mewtwoOppBtn">MewTwo</button>
 
             </div>
         </div>
     </div>
     <div class="row">
-        <div class="col-fluid" id="battleZone">
+        <div class="col" id="battleZone">
+            <div class="col-3"><br><br><br><br><br><br><br><br><br><br><br><br>
+                <img class="d-none" id="pikachuBattle" src="css/images/Pokemon/pikachu.png" width="300">
+                <img class="d-none" id="mewtwoBattle" src="css/images/Pokemon/mewtwo.png" width="300">
+                <img class="d-none" id="squirtleBattle" src="css/images/Pokemon/squirtle.png" width="300">
+                <img class="d-none" id="charizardBattle" src="css/images/Pokemon/charizard.png" width="300">
+                <img class="d-none" id="zamazentaBattle" src="css/images/Pokemon/zamazenta.png" width="300">
+                <img class="d-none" id="carnivineBattle" src="css/images/Pokemon/carnivine.png" width="300">
+
+
+
+
+
+
+            </div>
 
         </div>
 
